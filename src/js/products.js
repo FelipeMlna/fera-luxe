@@ -8,7 +8,7 @@ export const products = [
     },
     {
         id: 2,
-        name: "Pulsera Tejida de 4 balines en Rodio #4",
+        name: "Pulsera Tejida de 4 balines en Rodio #5",
         price: 20000,
         image: "src/assets/img2.jpeg"
     },
@@ -30,7 +30,7 @@ export const products = [
     {
         id: 5,
         name: "Pulsera Neopreno de 11 balines en Rodio #5",
-        price: 50000,
+        price: 35000,
         image: "src/assets/img5.jpeg"
 
     },
@@ -62,8 +62,32 @@ export const products = [
     {
         id: 9,
         name: "Pulsera Neopreno de 17 balines en Rodio #4",
-        price: 30000,
+        price: 45000,
         image: "src/assets/img9.jpeg"
+
+    },
+
+    {
+        id: 10,
+        name: "Pulsera San Benito de 6 balines #5",
+        price: 25000,
+        image: "src/assets/img10.jpg"
+
+    },
+
+    {
+        id: 11,
+        name: "Pulsera San Benito de 6 balines #5",
+        price: 25000,
+        image: "src/assets/img11.jpg"
+
+    },
+
+    {
+        id: 12,
+        name: "Pulsera 3 Carriles",
+        price: 120000,
+        image: "src/assets/img12.jpeg"
 
     },
 
