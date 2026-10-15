@@ -18,10 +18,10 @@
     --spacing-lg: 4rem;
 
     --container-width: 1200px;
-    --header-height: 80px;
+    --header-height: 100px;
 }
 
-/* Reset & Base */
+/* Reset & Base corregido */
 * {
     margin: 0;
     padding: 0;
@@ -128,11 +128,15 @@ h6 {
 }
 
 .brand-logo-img {
-    height: 80px;
+    height: 100px;
     width: auto;
     object-fit: contain;
     display: block;
+    /* Efecto de desvanecimiento en los dos lados (izquierdo y derecho) */
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
 }
+
 
 .nav-list {
     display: flex;
