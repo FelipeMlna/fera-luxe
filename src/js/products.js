@@ -407,8 +407,8 @@ if (checkoutForm) {
         const city = document.getElementById('checkout-city').value;
         const housing = document.getElementById('checkout-housing').value;
 
-        let message = `*NUEVO PEDIDO - FÉRA LUXE*%0A%0A`;
-        message += `*Cliente:* ${name}%0A`;
+        let message = `*HOLA FÉRA LUXE, QUIERO REALIZAR UN PEDIDO*%0A%0A`;
+        message += `*Nombre:* ${name}%0A`;
         message += `*Teléfono:* ${phone}%0A`;
         message += `*Documento:* ${idDoc}%0A`;
         message += `*Dirección:* ${address}, ${housing} (${city})%0A%0A`;
