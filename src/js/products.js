@@ -423,7 +423,7 @@ if (checkoutForm) {
 
         message += `%0A*TOTAL A PAGAR: $${total.toLocaleString()} COP*`;
 
-        const whatsappNumber = "573000000000";
+        const whatsappNumber = "573024475751";
         window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
     };
 }
